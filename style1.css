@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+}
+
+.headcontainer {
+    width: 1520px;
+    height: 200px;
+    border: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+    background-position-x: center;
+    background-color: aqua;
+}
+
+.headcontainer img {
+    border-radius: 250px;
+    box-shadow: 2px 5px 50px rgb(103, 101, 101);
+    border-color: 100px aliceblue;
+}
+
+.intro1 {
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 50px rgb(111, 0, 255);
+}
+
+.intro2 {
+    text-align: center;
+    color: white;
+}
+
+.intro3 {
+    text-align: left;
+    color: rgb(4, 167, 255);
+}
+
+.cobject {
+    width: 1520px;
+    height: 100px;
+    border: 15px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    background-color: azure;
+    margin-top: 15px;
+    margin: 5px auto;
+}
+
+.objective {
+    opacity: 0;
+    transition: opacity 2s ease-in;
+    text-align: justify;
+    animation-delay: 3s;
+}
+
+.container {
+    width: 100%;
+    height: 200%;
+    background-color: rgb(160, 150, 150);
+    border-radius: 10px;
+}
+
+#education-details {
+    height: 70%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10%;
+}
+
+#education-details th,
+#education-details td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+#education-details th {
+    background-color: #f2f2f2;
+}
+
+#personal-details {
+    height: 70%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10%;
+}
+
+#personal-details th,
+#personal-details td {
+    padding: 10px;
+    text-align: center;
+}
+
+#personal-details th {
+    background-color: #f2f2f2;
+}
+
+.btns {
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 15px;
+    margin-top: 30px;
+    width: 250px;
+    height: 44px;
+    text-align: center;
+}
+
+.btns:hover {
+    background-color: #0056b3;
+}
+
+#education {
+    width: 55%;
+    background-color: aliceblue;
+    box-shadow: 0 0 60px black;
+    align-items: center;
+    display: flex;
+    margin: 10px auto;
+}
+
+#ooter {
+    width: 100%;
+    height: 5%;
+    background-color: gray;
+}
+
+#ooter h3 {
+    color: white;
+    text-shadow: 0 0 10px black;
+    text-align: center;
+}
+
+.tech {
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+}
+
+.img {
+    padding: 5px;
+}
